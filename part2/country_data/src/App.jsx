@@ -11,7 +11,7 @@ function App() {
     // const [setDetailedCountry]
 
     useEffect(() => {
-        axios.get(`${import.meta.env.VITE_API_URL}`).then((data) => {
+        axios.get(`${import.meta.env.VITE_COUNTRIES_API_URL}`).then((data) => {
             // console.log(data.data);
             setAllData(data.data);
         });
