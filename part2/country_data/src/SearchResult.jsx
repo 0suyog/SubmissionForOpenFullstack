@@ -16,3 +16,4 @@ export default function SearchResult({ isLessThanTen, searchResult }) {
         return <>Type name of a country to search</>;
     }
 }
+

@@ -12,9 +12,10 @@ function App() {
 
     useEffect(() => {
         axios.get(`${import.meta.env.VITE_COUNTRIES_API_URL}`).then((data) => {
-            // console.log(data.data);
+            console.log(data.data);
             setAllData(data.data);
         });
+
     }, []);
 
     function handleSearchChange(e) {
